@@ -1,17 +1,22 @@
 # R_Shiny_materials
 
 - [Learn Shiny from RStudio_video and written tutorial](https://shiny.rstudio.com/tutorial/)
+
 - [Interactive Graphics with shiny_Winston Chang](https://resources.rstudio.com/webinars/interactive-graphics-winston?_ga=2.25625208.430462891.1587787526-1319657572.1578415698)
 
 - [Modulizing shiny app code - Garrett Grolemund](https://resources.rstudio.com/shiny-developer-conference/shinydevcon-modules-garrettgrolemund-1080p?_ga=2.101058244.430462891.1587787526-1319657572.1578415698)
 
 - [Debugging techniques - Jonathan McPherson](https://resources.rstudio.com/shiny-developer-conference/shinydevcon-debugging-jonathanmcpherson-1080p?_ga=2.101058244.430462891.1587787526-1319657572.1578415698)
 
+## Example
 
-## Books
+- [Shiny Gallery](https://shiny.rstudio.com/gallery/)
+- [rstudio_shiny-examples_GitHub](https://github.com/rstudio/shiny-examples)
+
+## Book
 
 - [Mastering Shiny_Hadley Wickham](https://mastering-shiny.org/index.html)
-- []()
+
 
 
 ## RStudio Conference
