@@ -37,6 +37,8 @@
 
 - [Awesome Shiny Extensions](https://awesomeopensource.com/project/nanxstats/awesome-shiny-extensions)
 
+## R Studio Community 
+- [For Discussion](https://community.rstudio.com)
 
 ## ggplot2 materials 
 - [link](https://github.com/Yousuf28/ggplot2_materials)
