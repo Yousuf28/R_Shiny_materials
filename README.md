@@ -25,6 +25,7 @@
 - [Integrating React.js and Shiny - Alan Dipert](https://resources.rstudio.com/rstudio-conf-2019/integrating-react-js-and-shiny)
 - [Don’t let long running tasks hang your users Introducing ipc for Shiny - Ian Fellows](https://resources.rstudio.com/rstudio-conf-2019/don-t-let-long-running-tasks-hang-your-users-introducing-ipc-for-shiny)
 - [Building an A/B testing analytics system with R and Shiny - Emily Robinson](https://resources.rstudio.com/rstudio-conf-2019/building-an-ab-testing-analytics-system-with-r-and-shiny)
+- [Shiny related talk](https://resources.rstudio.com/shiny-2)
 
 
 ## Others
