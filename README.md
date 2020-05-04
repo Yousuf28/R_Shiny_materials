@@ -20,6 +20,7 @@
 
 
 ## RStudio Conference
+- [Shiny Developer Conference](https://resources.rstudio.com/shiny-developer-conference)
 
 - [Styling Shiny apps with Sass and Bootstrap 4 - Joe Cheng](https://resources.rstudio.com/rstudio-conf-2020/styling-shiny-apps-with-sass-and-bootstrap-4-joe-cheng)
 - [Reproducible Shiny apps with shinymeta - Dr. Carson Sievert](https://resources.rstudio.com/rstudio-conf-2020/reproducible-shiny-apps-with-shinymeta-dr-carson-sievert)
