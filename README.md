@@ -43,3 +43,11 @@
 
 ## ggplot2 materials 
 - [link](https://github.com/Yousuf28/ggplot2_materials)
+
+## Books by Hadley Wickham
+
+- [Advanced R_Hadley Wickham](https://adv-r.hadley.nz)
+- [R for Data Science_Hadley Wickham](https://r4ds.had.co.nz)
+- [R packages_Hadley Wickham](http://r-pkgs.had.co.nz)
+- [ggplot2: Elegant Graphics for Data Analysis_Hadley Wickham](https://ggplot2-book.org)
+- [Mastering Shiny](https://mastering-shiny.org)
