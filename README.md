@@ -8,6 +8,8 @@
 
 - [Debugging techniques - Jonathan McPherson](https://resources.rstudio.com/shiny-developer-conference/shinydevcon-debugging-jonathanmcpherson-1080p?_ga=2.101058244.430462891.1587787526-1319657572.1578415698)
 
+- [awesome-rshiny](https://github.com/grabear/awesome-rshiny)
+
 ## Example
 
 - [Shiny Gallery](https://shiny.rstudio.com/gallery/)
