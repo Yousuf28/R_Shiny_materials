@@ -43,8 +43,7 @@
 ## R Studio Community 
 - [For Discussion](https://community.rstudio.com)
 
-## ggplot2 materials 
-- [link](https://github.com/Yousuf28/ggplot2_materials)
+
 
 ## Books by Hadley Wickham
 - [The tidyverse style guide(for writing good code in R)_Hadley Wickham](https://style.tidyverse.org)
@@ -53,3 +52,11 @@
 - [R packages_Hadley Wickham](http://r-pkgs.had.co.nz)
 - [ggplot2: Elegant Graphics for Data Analysis_Hadley Wickham](https://ggplot2-book.org)
 - [Mastering Shiny](https://mastering-shiny.org)
+
+## R tutorial
+
+- [Basic R tutorial_link](https://github.com/Yousuf28/R_tutorial)
+
+
+## ggplot2 materials 
+- [link](https://github.com/Yousuf28/ggplot2_materials)
