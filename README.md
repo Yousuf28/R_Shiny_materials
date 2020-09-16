@@ -53,6 +53,11 @@
 - [ggplot2: Elegant Graphics for Data Analysis_Hadley Wickham](https://ggplot2-book.org)
 - [Mastering Shiny](https://mastering-shiny.org)
 
+
+## R Shiny Discussion
+
+- [reactive vs. observe vs. observeEvent](https://stackoverflow.com/questions/53016404/advantages-of-reactive-vs-observe-vs-observeevent)
+
 ## R tutorial
 
 - [Basic R tutorial_link](https://github.com/Yousuf28/R_tutorial)
