@@ -11,6 +11,9 @@
 - [awesome-rshiny](https://github.com/grabear/awesome-rshiny)
 
 ## Example
+- [first-shiny-contest-winners](https://blog.rstudio.com/2019/04/05/first-shiny-contest-winners/)
+- [winners-of-the-2nd-shiny-contest](https://blog.rstudio.com/2020/07/13/winners-of-the-2nd-shiny-contest/)
+- [full_list](https://rpubs.com/minebocek/shiny-contest-2020-submissions)
 
 - [Shiny Gallery](https://shiny.rstudio.com/gallery/)
 - [rstudio_shiny-examples_GitHub](https://github.com/rstudio/shiny-examples)
