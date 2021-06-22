@@ -61,6 +61,10 @@
 
 - [reactive vs. observe vs. observeEvent](https://stackoverflow.com/questions/53016404/advantages-of-reactive-vs-observe-vs-observeevent)
 
+- [Pass shiny reactive() value into javascript part of DT](https://stackoverflow.com/questions/41121474/pass-shiny-reactive-value-into-javascript-part-of-dt)
+- [Sending data from client to server and back using shiny_see the diagram](https://ryouready.wordpress.com/2013/11/20/sending-data-from-client-to-server-and-back-using-shiny/)
+- 
+
 ## R tutorial
 
 - [Basic R tutorial_link](https://github.com/Yousuf28/R_tutorial)
