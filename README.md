@@ -63,7 +63,7 @@
 
 - [Pass shiny reactive() value into javascript part of DT](https://stackoverflow.com/questions/41121474/pass-shiny-reactive-value-into-javascript-part-of-dt)
 - [Sending data from client to server and back using shiny_see the diagram](https://ryouready.wordpress.com/2013/11/20/sending-data-from-client-to-server-and-back-using-shiny/)
-- 
+- [some shiny works](https://laustep.github.io/stlahblog/tags/shiny.html)
 
 ## R tutorial
 
@@ -76,10 +76,15 @@
 ## JavaScript materials
 - [JavaScript Tutorial](https://www.w3schools.com/js/default.asp)
 - [jQuery Tutorial](https://www.w3schools.com/jquery/default.asp)
+- [javascript i++ vs ++i](https://stackoverflow.com/questions/6867876/javascript-i-vs-i)
+
+## HTML
 - [HTML Tutorial](https://www.w3schools.com/html/default.asp)
+
+## CSS
 - [CSS](https://www.w3schools.com/css/default.asp)
 
 #### 
 
-- [javascript i++ vs ++i](https://stackoverflow.com/questions/6867876/javascript-i-vs-i)
+
 
