@@ -72,3 +72,10 @@
 
 ## ggplot2 materials 
 - [link](https://github.com/Yousuf28/ggplot2_materials)
+
+## JavaScript materials
+- [JavaScript Tutorial](https://www.w3schools.com/js/default.asp)
+- [jQuery Tutorial](https://www.w3schools.com/jquery/default.asp)
+- [HTML Tutorial](https://www.w3schools.com/html/default.asp)
+- [CSS](https://www.w3schools.com/css/default.asp)
+
