@@ -73,6 +73,10 @@
 ## ggplot2 materials 
 - [link](https://github.com/Yousuf28/ggplot2_materials)
 
+## shiny JavaScript
+
+- [shinyJsTutorials](https://github.com/FrissAnalytics/shinyJsTutorials)
+
 ## JavaScript materials
 - [JavaScript Tutorial](https://www.w3schools.com/js/default.asp)
 - [jQuery Tutorial](https://www.w3schools.com/jquery/default.asp)
