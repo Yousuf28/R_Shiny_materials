@@ -77,6 +77,7 @@
 ## shiny JavaScript
 
 - [shinyJsTutorials](https://github.com/FrissAnalytics/shinyJsTutorials)
+- [Slides from JavaScript for Shiny Users](https://js4shiny.com/slides/)
 
 ## JavaScript materials
 - [JavaScript Tutorial](https://www.w3schools.com/js/default.asp)
