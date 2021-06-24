@@ -21,6 +21,7 @@
 ## Book
 
 - [Mastering Shiny_Hadley Wickham](https://mastering-shiny.org/index.html)
+- [unleash shiny](https://unleash-shiny.rinterface.com/index.html)
 
 
 
