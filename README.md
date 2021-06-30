@@ -21,7 +21,7 @@
 ## Book
 
 - [Mastering Shiny_Hadley Wickham](https://mastering-shiny.org/index.html)
-- [unleash shiny](https://unleash-shiny.rinterface.com/index.html)
+
 
 
 
@@ -78,6 +78,8 @@
 
 - [shinyJsTutorials](https://github.com/FrissAnalytics/shinyJsTutorials)
 - [Slides from JavaScript for Shiny Users](https://js4shiny.com/slides/)
+- [JavaScript for R](https://book.javascript-for-r.com)
+- [unleash shiny](https://unleash-shiny.rinterface.com/index.html)
 
 ## JavaScript materials
 - [JavaScript Tutorial](https://www.w3schools.com/js/default.asp)
