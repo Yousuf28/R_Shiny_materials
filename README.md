@@ -67,6 +67,11 @@
 - [Sending data from client to server and back using shiny_see the diagram](https://ryouready.wordpress.com/2013/11/20/sending-data-from-client-to-server-and-back-using-shiny/)
 - [some shiny works](https://laustep.github.io/stlahblog/tags/shiny.html)
 
+
+## Resources
+
+- [shiny-production-with-aws](https://business-science.github.io/shiny-production-with-aws-book/)
+
 ## R tutorial
 
 - [Basic R tutorial_link](https://github.com/Yousuf28/R_tutorial)
