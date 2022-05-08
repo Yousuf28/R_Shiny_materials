@@ -15,10 +15,16 @@ mod_test <- function(id, data) {
 
 	shiny::moduleServer(id, function(input, output, session) {
 
-
+	result <- shiny::eventReactive(input$test, {
+		df <- data()
+		df
+		
+		})
 
 	output$out <- shiny::renderPrint(
-		data())
+		
+		result()
+		)
 	})
 }
 

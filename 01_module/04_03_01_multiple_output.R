@@ -37,7 +37,13 @@ module_one <- function(id, data) {
                 data
             })
 
-           reactive(data_out())
+           return(
+			   list(
+				   x = reactive(data_out()),
+				   y = reactive(input$column)
+			   )
+		   )
+		 
 
 
 
@@ -68,11 +74,11 @@ server <- function(input, output, session) {
 out_from_one <- module_one("one", data=data_mtcar)
 
 
-	output$out <- renderPrint(out_from_one())
+	output$out <- renderPrint(out_from_one$x())
 
    use_in_reactive <- shiny::eventReactive(input$check,{
-        data <- out_from_one()
-		data[1]
+        data <- out_from_one$y()
+		data
 
         # data <- data_mtcar
         

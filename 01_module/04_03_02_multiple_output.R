@@ -37,7 +37,18 @@ module_one <- function(id, data) {
                 data
             })
 
-           reactive(data_out())
+           return(
+			   list(
+				   x = reactive(data_out()),
+				   y = reactive(input$column),
+				   z = reactive(input$update)
+
+				#     y = reactive({input$column}),
+				#    z = reactive({input$update}) 
+				# this also works
+			   )
+		   )
+		 
 
 
 
@@ -53,7 +64,8 @@ ui <- shiny::fluidPage(
 
 	shiny::verbatimTextOutput("out"),
     shiny::actionButton("check", "click"),
-	shiny::verbatimTextOutput("first")
+	shiny::verbatimTextOutput("first"),
+	shiny::verbatimTextOutput("second")
 
 
 )
@@ -68,17 +80,26 @@ server <- function(input, output, session) {
 out_from_one <- module_one("one", data=data_mtcar)
 
 
-	output$out <- renderPrint(out_from_one())
+	output$out <- renderPrint(out_from_one$x())
 
    use_in_reactive <- shiny::eventReactive(input$check,{
-        data <- out_from_one()
-		data[1]
+        data <- out_from_one$y()
+		data
+
+        # data <- data_mtcar
+        
+    })
+
+	 use_in_reactive_z <- shiny::eventReactive(input$check,{
+        data <- out_from_one$z()
+		data
 
         # data <- data_mtcar
         
     })
 
 output$first <- renderPrint(use_in_reactive())
+output$second<- renderPrint(use_in_reactive_z())
 
 }
 

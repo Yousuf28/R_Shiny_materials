@@ -1,5 +1,7 @@
+library(shiny)
 data <- datasets::mtcars
 
+# module UI
 module_one_ui <- function(id) {
     ns <- shiny::NS(id)
     shiny::fluidRow(
@@ -8,10 +10,12 @@ module_one_ui <- function(id) {
             width = 3, offset = 1,
             shiny::uiOutput(ns("filter")),
             shiny::actionButton(ns("update"), "update"),
+			shiny::verbatimTextOutput(ns("out"))
         )
     )
 }
 
+# module server
 module_one <- function(id, data) {
     shiny::moduleServer(
         id,
@@ -37,7 +41,9 @@ module_one <- function(id, data) {
                 data
             })
 
-           reactive(data_out())
+			output$out <- shiny::renderPrint(data_out())
+
+           
 
 
 
@@ -47,38 +53,24 @@ module_one <- function(id, data) {
 }
 
 
-
+##### UI
 ui <- shiny::fluidPage(
-    module_one_ui("one"),
-    shiny::actionButton("check", "click"),
-	verbatimTextOutput("out"),
-	verbatimTextOutput("first")
-
-
+    module_one_ui("one")
 )
 
+# server
 server <- function(input, output, session) {
+
     data_mtcar <- reactive({
         data <- data
         data
     })
 
-
-out_from_one <- module_one("one", data=data_mtcar)
-
-
-	output$out <- renderPrint(out_from_one())
-
-   use_in_reactive <- shiny::eventReactive(input$check,{
-        data <- out_from_one()
-		data[1]
-
-        # data <- data_mtcar
-        
-    })
-
-output$first <- renderPrint(use_in_reactive())
+## module use
+ module_one("one", data=data_mtcar)
 
 }
+
+# run app
 
 shiny::shinyApp(ui, server)
