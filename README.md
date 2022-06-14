@@ -71,6 +71,7 @@
 ## Resources
 
 - [shiny-production-with-aws](https://business-science.github.io/shiny-production-with-aws-book/)
+- [deploy-to-shinyapps-io-from-github-actions](https://www.r-bloggers.com/2021/02/deploy-to-shinyapps-io-from-github-actions/)
 
 ## R tutorial
 
