@@ -8,7 +8,7 @@
 
 - [Debugging techniques - Jonathan McPherson](https://resources.rstudio.com/shiny-developer-conference/shinydevcon-debugging-jonathanmcpherson-1080p?_ga=2.101058244.430462891.1587787526-1319657572.1578415698)
 
-- [awesome-rshiny](https://github.com/grabear/awesome-rshiny)
+
 
 ## Example
 - [first-shiny-contest-winners](https://blog.rstudio.com/2019/04/05/first-shiny-contest-winners/)
@@ -55,13 +55,6 @@
 
 
 
-## Books by Hadley Wickham
-- [The tidyverse style guide(for writing good code in R)_Hadley Wickham](https://style.tidyverse.org)
-- [Advanced R_Hadley Wickham](https://adv-r.hadley.nz)
-- [R for Data Science_Hadley Wickham](https://r4ds.had.co.nz)
-- [R packages_Hadley Wickham](http://r-pkgs.had.co.nz)
-- [ggplot2: Elegant Graphics for Data Analysis_Hadley Wickham](https://ggplot2-book.org)
-- [Mastering Shiny](https://mastering-shiny.org)
 
 
 ## R Shiny Discussion
@@ -78,13 +71,6 @@
 - [shiny-production-with-aws](https://business-science.github.io/shiny-production-with-aws-book/)
 - [deploy-to-shinyapps-io-from-github-actions](https://www.r-bloggers.com/2021/02/deploy-to-shinyapps-io-from-github-actions/)
 
-## R tutorial
-
-- [Basic R tutorial_link](https://github.com/Yousuf28/R_tutorial)
-
-
-## ggplot2 materials 
-- [link](https://github.com/Yousuf28/ggplot2_materials)
 
 ## shiny JavaScript
 
@@ -108,6 +94,23 @@
 - [CSS cheatsheet](https://github.com/AdamMarsden/css-cheat-sheet)
 
 #### 
+
+## Books by Hadley Wickham
+- [The tidyverse style guide(for writing good code in R)_Hadley Wickham](https://style.tidyverse.org)
+- [Advanced R_Hadley Wickham](https://adv-r.hadley.nz)
+- [R for Data Science_Hadley Wickham](https://r4ds.had.co.nz)
+- [R packages_Hadley Wickham](http://r-pkgs.had.co.nz)
+- [ggplot2: Elegant Graphics for Data Analysis_Hadley Wickham](https://ggplot2-book.org)
+- [Mastering Shiny](https://mastering-shiny.org)
+- 
+## R tutorial
+
+- [Basic R tutorial_link](https://github.com/Yousuf28/R_tutorial)
+
+
+## ggplot2 materials 
+- [link](https://github.com/Yousuf28/ggplot2_materials)
+
 
 
 
