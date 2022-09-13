@@ -21,8 +21,12 @@
 ## Book
 
 - [Mastering Shiny_Hadley Wickham](https://mastering-shiny.org/index.html)
+- [Outstanding User Interfaces with Shiny](https://unleash-shiny.rinterface.com/welcome.html)
+- [Engineering Production-Grade Shiny Apps](https://engineering-shiny.org/)
+- [JavaScript for R](https://book.javascript-for-r.com/)
 
-
+## Shiny Developer Series
+- [Shiny Developer Series](https://www.youtube.com/c/ShinyDeveloperSeries/videos)
 
 
 ## RStudio Conference
@@ -43,7 +47,8 @@
 
 ## Others
 
-- [Awesome Shiny Extensions](https://awesomeopensource.com/project/nanxstats/awesome-shiny-extensions)
+- [Awesome Shiny Extensions](https://github.com/nanxstats/awesome-shiny-extensions)
+- [awesome-rshiny](https://github.com/grabear/awesome-rshiny)
 
 ## R Studio Community 
 - [For Discussion](https://community.rstudio.com)
@@ -85,8 +90,7 @@
 
 - [shinyJsTutorials](https://github.com/FrissAnalytics/shinyJsTutorials)
 - [Slides from JavaScript for Shiny Users](https://js4shiny.com/slides/)
-- [JavaScript for R](https://book.javascript-for-r.com)
-- [unleash shiny](https://unleash-shiny.rinterface.com/index.html)
+
 
 ## JavaScript materials
 - [JavaScript Tutorial](https://www.w3schools.com/js/default.asp)
@@ -94,10 +98,14 @@
 - [javascript i++ vs ++i](https://stackoverflow.com/questions/6867876/javascript-i-vs-i)
 
 ## HTML
+- [interactive html](https://htmlcheatsheet.com/)
 - [HTML Tutorial](https://www.w3schools.com/html/default.asp)
 
 ## CSS
+- [Interactive CSS_very good](https://htmlcheatsheet.com/css/)
 - [CSS](https://www.w3schools.com/css/default.asp)
+- [CSS_with table](https://www.interviewbit.com/css-cheat-sheet/)
+- [CSS cheatsheet](https://github.com/AdamMarsden/css-cheat-sheet)
 
 #### 
 
