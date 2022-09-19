@@ -64,6 +64,7 @@
 - [Pass shiny reactive() value into javascript part of DT](https://stackoverflow.com/questions/41121474/pass-shiny-reactive-value-into-javascript-part-of-dt)
 - [Sending data from client to server and back using shiny_see the diagram](https://ryouready.wordpress.com/2013/11/20/sending-data-from-client-to-server-and-back-using-shiny/)
 - [some shiny works](https://laustep.github.io/stlahblog/tags/shiny.html)
+- [R to JS and JS to R- data sending_diagram](https://shiny.rstudio.com/articles/js-send-message.html)
 
 
 ## Resources
