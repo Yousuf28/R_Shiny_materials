@@ -1,0 +1,86 @@
+
+body{
+    width:860px;
+    margin:40px auto;
+}
+path {  stroke: #fff; 
+stroke-width: 2;}
+path:hover {  opacity:0.9; }
+.bar:hover {  fill:Turquoise ;
+stroke:Tomato;
+stroke-width:2;
+fill-opacity:0.4;
+stroke-opacity:0.6}
+.axis {  font: 10px sans-serif; }
+.legend tr{    border-bottom:1px solid grey; }
+.legend tr:first-child{    border-top:1px solid grey; }
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke-width: 1;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+/*.x.axis path {  display: none; }*/
+.legend{
+    margin-bottom:76px;
+    display:inline-block;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+.legend td{
+    padding:4px 5px;
+    vertical-align:bottom;
+}
+.legendFreq, .legendPerc{
+    align:right;
+    width:5px;
+}
+
+.d3-tip {
+      line-height: 1;
+      padding: 6px;
+      background: rgba(255, 99, 71, 0.4);
+      color: #fff;
+      border-radius: 4px;
+      font-size: 14px;
+}
+ 
+    /* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+      box-sizing: border-box;
+      display: inline;
+      font-size: 10px;
+      width: 100%;
+      line-height: 1;
+      color: rgba(0, 0, 0, 0.8);
+      content: "\25BC";
+      position: absolute;
+      text-align: center;
+}
+ 
+    /* Style northward tooltips specifically */
+.d3-tip.n:after {
+      margin: 0.4px 0 0 0;
+	  color: rgba(255, 99, 71, 0.4);
+      top: 100%;
+      left: 0;
+}
+
+.shiny-text-output.shiny-bound-output{
+display:none;
+}
+
+#div_board1{
+padding-top: 28%;
+}
+
+#div_board2{
+padding-top: 28%;
+}
+
+body > div.container-fluid > h6{
+    margin-left: 46px;
+}
