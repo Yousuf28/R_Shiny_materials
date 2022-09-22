@@ -23,6 +23,7 @@
 - [Mastering Shiny_Hadley Wickham](https://mastering-shiny.org/index.html)
 - [Outstanding User Interfaces with Shiny](https://unleash-shiny.rinterface.com/welcome.html)
 - [Engineering Production-Grade Shiny Apps](https://engineering-shiny.org/)
+- [JavaScript 4 Shiny - Field Notes](https://connect.thinkr.fr/js4shinyfieldnotes/)
 - [JavaScript for R](https://book.javascript-for-r.com/)
 
 ## Shiny Developer Series
