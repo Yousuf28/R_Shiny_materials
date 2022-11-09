@@ -10,7 +10,7 @@ ui <- fluidPage(
 
     fluidRow(
 		sliderInput("bar_max", label = "Max:",
-                min = 10, max = 30, value = 5, step = 1),
+                min = 1, max = 15, value = 5, step = 1),
     actionButton("generate", "Generate"),
     
       tags$head(tags$script(src="d3.min.js")),
