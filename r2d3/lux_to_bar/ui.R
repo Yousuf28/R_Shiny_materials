@@ -5,7 +5,7 @@ shinyUI(
           tags$head(tags$script(src="d3.min.js")),
           tags$head(tags$script(src="shapes.js")),
           
-          sliderInput(inputId = "n", "how many number", min = 3, max = 10, value = 4, step = 1),
+          sliderInput(inputId = "n", "how many number", min = 3, max = 50, value = 4, step = 1),
           actionButton("generate", "Generate"),
                 
                fluidRow(
