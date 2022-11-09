@@ -1,0 +1,13 @@
+name: session_data
+title: session_data
+username:
+account: yousuf28
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5285993
+bundleId: 5342030
+url: https://yousuf28.shinyapps.io/session_data/
+when: 1638908001.96201
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: 01_cookies.R|02_cookies_authentication.R|www/js.cookie.js|www/script.js
