@@ -1,10 +1,13 @@
-// var dataArray = [5,11,18];
 
-var dataArray = [5,11,18];
-  // var dataArray = message;
- 
+Shiny.addCustomMessageHandler("array_to_js",
+  function(message){
+	var kk = Math.random()
+	console.log(kk)
+	var dataArray = message;
+	console.log(dataArray)
+	d3.select("#d3_plot").selectAll("svg").remove();
 
-var svg = d3.select("body").append("svg").attr("height","100%").attr("width","100%");
+var svg = d3.select("#d3_plot").append("svg").attr("height","1000px").attr("width","1000px");
 
 svg.selectAll("rect")
       .data(dataArray)
@@ -18,3 +21,4 @@ svg.selectAll("rect")
 
 
 
+  })
