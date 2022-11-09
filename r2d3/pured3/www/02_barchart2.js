@@ -1,10 +1,10 @@
 
 Shiny.addCustomMessageHandler("array_to_js",
   function(message){
-	var kk = Math.random()
-	console.log(kk)
+	// var kk = Math.random()
+	// console.log(kk)
 	var dataArray = message;
-	console.log(dataArray)
+	// console.log(dataArray)
 	d3.select("#d3_plot").selectAll("svg").remove();
 
 var svg = d3.select("#d3_plot").append("svg").attr("height","1000px").attr("width","1000px");

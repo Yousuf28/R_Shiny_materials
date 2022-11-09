@@ -10,7 +10,7 @@ ui <- fluidPage(
 
     fluidRow(
 		sliderInput("bar_max", label = "Max:",
-                min = 10, max = 30, value = 15, step = 1),
+                min = 10, max = 30, value = 5, step = 1),
     actionButton("generate", "Generate"),
     
       tags$head(tags$script(src="d3.min.js")),
@@ -32,7 +32,7 @@ ui <- fluidPage(
 server <- function(input, output,session) {
   
   data_d3 <- eventReactive(input$generate,{
-  	data <- as.integer(rnorm(n=6,mean = 7, 1))
+  	data <- as.integer(rnorm(n=input$bar_max,mean = 7, 1))
   	print(data)
   	data
   	
