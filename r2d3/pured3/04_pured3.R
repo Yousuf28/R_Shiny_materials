@@ -4,6 +4,8 @@ library(shiny)
 # 
 
 ui <- fluidPage(
+	htmltools::includeScript("www/02_barchart2.js"),
+	htmltools::includeScript("www/d3.v3.min.js"),
 
  
   
@@ -13,10 +15,12 @@ ui <- fluidPage(
                 min = 1, max = 15, value = 5, step = 1),
     actionButton("generate", "Generate"),
     
-      tags$head(tags$script(src="d3.min.js")),
+    #   tags$head(tags$script(src="d3.v3.min.js")),
+    # #   tags$head(tags$script(src="")),
+    #   tags$head(tags$script(src="02_barchart2.js")),
     
       column(width=12,align="center", 
-             tags$script(src="02_barchart2.js"),
+            #  tags$script(src="02_barchart2.js"),
              tags$div(id="d3_plot")
              )
 
