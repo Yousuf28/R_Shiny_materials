@@ -1,7 +1,6 @@
 library(shiny)
 
-library(shiny)
-options(shiny.autoreload.interval = 2000)
+
 ui <- shiny::fluidPage(
     htmltools::includeScript("from_shiny.js"),
     shiny::titlePanel("title"),
@@ -62,7 +61,7 @@ server  <- function(input, output, session) {
 
        shiny::observeEvent(input$submit_02, {
         data <- r_data()
-        data <- jsonlite::toJSON(data, dataframe = "columns")
+        data <- jsonlite::toJSON(data, dataframe = "rows")
         print(data)
         session$sendCustomMessage(type = "jsondata", data)
     })
@@ -80,6 +79,7 @@ shiny::observe({
 output$js_out  <- shiny::renderPrint({
     req(input$from_js_data)
     df <- jsonlite::fromJSON(input$from_js_data)
+    # df <- input$from_js_data
     df
 
 })
