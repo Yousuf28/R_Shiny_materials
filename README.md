@@ -76,6 +76,8 @@
 
 ## shiny JavaScript
 
+- [JS for Shiny](https://github.com/rstudio-conf-2020/js-for-shiny)  
+
 - [shinyJsTutorials](https://github.com/FrissAnalytics/shinyJsTutorials)
 - [Slides from JavaScript for Shiny Users](https://js4shiny.com/slides/)
 
