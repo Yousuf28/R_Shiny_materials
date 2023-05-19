@@ -114,7 +114,9 @@
 
 ## ggplot2 materials 
 - [link](https://github.com/Yousuf28/ggplot2_materials)
-
+## tricks
+- [autoreload](https://shiny.posit.co/r/reference/shiny/1.7.4/shinyoptions)
+- `options(shiny.autoreload.interval = 2000)`
 
 
 
